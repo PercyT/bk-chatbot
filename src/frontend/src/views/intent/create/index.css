@@ -1,0 +1,106 @@
+.opsbot-intent-slider .wrapper {
+    margin-left: 10px;
+    height:calc(100vh - 140px)!important;
+    max-height: 1000px
+}
+.opsbot-intent-slider .wrapper p {
+    word-wrap:break-word;
+    word-break:break-all;
+}
+.opsbot-intent-slider .bk-sideslider-wrapper {
+    overflow-x: hidden;
+}
+.opsbot-intent-slider .bk-sideslider-content {
+    overflow-x: hidden;
+}
+.opsbot-slider-container {
+    width: 750px;
+    margin-top: 20px;
+}
+.opsbot-slider-table .bk-page-count {
+    display: none !important;
+}
+.opsbot-slider-collapse {
+    border: 1px solid #eee;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.opsbot-slider-collapse .custom-icon {
+    margin: 0 15px 0 20px;
+    font-size: 16px;
+}
+.opsbot-slider-collapse .bk-collapse-item-content {
+    margin-top: 10px;
+}
+.opsbot-slider-collapse .bk-form {
+    width: 95%;
+}
+.opsbot-slider-collapse .bk-collapse-item-header {
+    background-color: #63656E;
+    color: white;
+}
+.opsbot-slider-collapse .bk-collapse-item-hover {
+    color: white !important;
+}
+.dropdown-trigger-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    min-width: 68px;
+    color: #63656E;
+    cursor: pointer;
+}
+.dropdown-trigger-text .bk-icon {
+    font-size: 22px;
+}
+.opsbot-create-select {
+    margin-top: 15px;
+    margin-right: 5px;
+    border: 0px;
+}
+.opsbot-slider-trigger {
+    font-weight: 400;
+    font-size: 14px;
+    color: #63656e;
+    margin-left: 9px;
+}
+.opsbot-slider-trigger-content {
+    margin-top: 12px;
+    background-color: #373636;
+    padding: 15px 26px 15px 15px;
+    color: #c7c7c7;
+    line-height: 25px;
+    font-size: 14px;
+    border-radius: 7px;
+    position: relative;
+}
+.icon-color {
+    color: #2d8cf0;
+}
+.no-trigger-text {
+    margin-left: -630px;
+}
+#copy-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.env-layout {
+    position: absolute;
+    background-color: white;
+    right: 0;
+    top: 60px;
+    z-index: 1112;
+    width: 800px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 10%);
+    transition: all .3s ease;
+}
+.params {
+    height: 100%; width: 15%; font-size: 13px;cursor: pointer;
+}
+.icon-font-size {
+    font-size: 18px !important;
+}

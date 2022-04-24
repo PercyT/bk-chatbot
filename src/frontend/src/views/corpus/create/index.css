@@ -1,0 +1,116 @@
+ .firstStepForm .bk-form-item .bk-label .bk-label-text .bk-icon{
+        margin-left: 2px;
+    }
+    .firstStepForm .bk-select-name {
+        padding: 0 36px 0 0;
+    }
+    .firstStepForm .bk-label {
+        width: 100px!important;
+        margin-left: 0px!important;
+        text-align: left;
+        padding: 0;
+    }
+    .firstStepForm .bk-form-content {
+        margin-left: 90px!important;
+    }
+    .secondStepForm .bk-label {
+        width: 90px!important;
+        margin-left: 0px!important;
+    }
+    .secondStepForm .bk-form-content {
+        margin: 0 auto!important;
+    }
+    .secondStepForm .bk-button {
+        width: 90px;
+        vertical-align:middle;
+        text-align: center;
+        line-height: 23px;
+
+    }
+    .StepFormTitle .bk-form-content {
+        margin-left: 0!important;
+    }
+    .firstStepForm {
+    padding: 15px 28px;
+    z-index: 2020;
+    margin: 10px;
+    box-shadow:0px 0px 8px 2px rgba(43, 43, 43, 0.24);
+}
+.firstStepForm .wordSlot {
+    background-color: #efefef;
+    font-size: 14px;
+    color: #999999;
+    padding: 0.5em 1.5em;
+    border-radius: 4px;
+    align-items: center;
+    word-wrap: break-word;word-break: keep-all;
+}
+.firstStepForm .wordSlotTag {
+    padding: 4px 5px;
+    border-radius:20px;
+    font-size: 10px;
+    color: white;
+}
+.firstStepForm .wordSlotTag+.wordSlotTag {
+    margin-left: 5px;
+}
+.secondStepForm {
+    padding: 15px 25px;
+    margin: 35px 10px 10px 10px;
+    z-index: 2020;
+    box-shadow:0px 0px 8px 1px rgba(43, 43, 43, 0.24);
+}
+.secondStepForm .statementIncrement {
+    /*align-items: center;*/
+    background-color: #efefef;
+    padding: 20px;
+    display: flex;
+}
+.StepFormTitle {
+    color: #636363;
+    font-size: 16px;
+    font-weight: 690;
+    margin-bottom: 30px;
+}
+.slot-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 5px;
+    color: #63656e;
+    font-size: 14px;
+}
+.slot-item:hover {
+    background-color: #DEEEFF;
+}
+.slot-delete {
+    color: #63656e;
+    text-align: center;
+}
+.slot-delete:hover {
+    background-color: #DEEEFF;
+}
+.slot-circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.color-span {
+    user-select: none;
+    border-radius: 10px;
+    display: inline-block;
+    color: #ffffff;
+}
+.input{
+            width:500px;
+            height:32px;
+            line-height:24px;
+            font-size:14px;
+            padding:5px 8px;
+            border:1px solid #ddd;
+        }
+        .input:empty::before {
+            content: attr(placeholder);
+        }

@@ -1,0 +1,84 @@
+.firstStepForm .bk-form-item .bk-label .bk-label-text .bk-icon {
+    margin-left: 2px;
+}
+.firstStepForm .bk-select-name {
+    padding: 0 36px 0 8px;
+}
+.firstStepForm .bk-label {
+    width: 100px!important;
+    margin-left: 0px!important;
+    text-align: left;
+    padding: 0;
+}
+.firstStepForm .bk-form-content {
+    margin-left: 100px!important;
+}
+.secondStepForm .bk-label {
+    width: 90px!important;
+    margin-left: 0px!important;
+}
+.secondStepForm .bk-form-content {
+    margin: 0 auto!important;
+    margin-left: 100px!important;
+}
+.secondStepForm .bk-button {
+    width: 90px;
+    vertical-align:middle;
+    text-align: center;
+    line-height: 23px;
+}
+.StepFormTitle .bk-form-content {
+    margin-left: 0!important;
+}
+.firstStepForm {
+    padding: 15px 28px;
+    z-index: 2020;
+    margin: 10px;
+    box-shadow:0px 0px 8px 2px rgba(43, 43, 43, 0.24);
+}
+.secondStepForm {
+    padding: 15px 25px;
+    margin: 35px 10px 10px 10px;
+    z-index: 2020;
+    box-shadow: 0px 0px 8px 1px rgba(43, 43, 43, 0.24);
+}
+.StepFormTitle {
+    color: #636363;
+    font-size: 16px;
+    font-weight: 690;
+    margin-bottom: 30px;
+}
+.confirmTitle {
+    font-size: 14px;
+    margin-top: 20px;
+}
+.confirmInfo {
+    font-size: 14px;
+    margin-top: 10px;
+}
+/deep/ .bk-form-radio {
+    margin-right: 15px;
+}
+.plugin_icon {
+    width: 70px;
+    height: 70px;
+    border: 1px solid grey;
+    margin-right: 10px;
+}
+.plugin_icon:hover {
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-box-shadow: 0 0 6px #999;
+    box-shadow: 0 0 6px #999;
+    border: 1px solid #3A84FF;
+    -webkit-transition: all .1s ease-out;
+    transition: all .1s ease-out;
+}
+.plugin_icon_selected {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    border: 1px solid #3A84FF;
+    box-shadow: 0 0 3px #3A84FF;
+}

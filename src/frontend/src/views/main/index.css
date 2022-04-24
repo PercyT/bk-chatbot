@@ -1,0 +1,96 @@
+.main-content {
+    min-height: 300px;
+}
+.app-container {
+    min-width: 1100px;
+}
+
+.app {
+    min-height: calc(100vh - 208px);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-info {
+    width: 550px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.content-button {
+    width: 150px;
+    height: 40px;
+    background-color: #5287f7;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.content-title {
+    font-size: 30px;
+    font-family: "Secret Font";
+}
+@media only screen and (min-width: 1800px) {
+    .banner {
+        width: 750px;
+    }
+}
+@media only screen and (max-width: 1800px) {
+    .banner {
+        width: 750px;
+    }
+}
+.gray-background {
+    background-color: #f5f7fa;
+}
+.high {
+    height: 500px;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+.image {
+    width: 300px;
+}
+.T-text {
+    margin-left: 55px;
+    font-size: 20px;
+    font-family: "Secret Font";
+    margin-top: -35px;
+}
+.t-text {
+    margin-left: 55px;
+    width: 270px;
+    margin-top: 10px;
+}
+
+.title {
+    font-family: "Secret Font";
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50px;
+}
+.game-image {
+    width: 200px;
+    border-radius: 20px;
+}
+.more {
+    height: 140px;
+    text-align: center;
+    line-height: 140px;
+    font-family: "Secret Font";
+    font-size: 20px;
+    color: #92b0f1;
+}
+a{
+    color: #92b0f1;
+}
+@font-face {
+  font-family: 'Secret Font';
+  src: url('../../../static/images/TencentSans-W7.ttf');
+}
